@@ -1,0 +1,16 @@
+:root {
+  --green-color: #50fa7b;
+}
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 650px;
+  gap: 20px;
+}

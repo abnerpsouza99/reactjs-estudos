@@ -1,0 +1,32 @@
+.aboutMeContent {
+  text-align: center;
+  color: white;
+  padding: 0 25px;
+  margin: auto 50px;
+  border-radius: 20px;
+  animation-name: right;
+  animation-duration: 1000ms;
+}
+
+.aboutMeContent h2 {
+  margin: 25px 0;
+  font-size: 50px;
+  text-shadow: 5px 5px 10px black; 
+}
+
+.aboutMeContent p {
+  font-size: 25px;
+  text-shadow: 5px 5px 10px black; 
+}
+
+
+
+@keyframes right {
+  from{
+      opacity: 0;
+      transform: translate3d(50px,0,0);
+  }
+  to {
+      opacity: 1;
+  }
+}
