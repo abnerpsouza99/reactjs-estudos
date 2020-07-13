@@ -4,6 +4,8 @@ import reactJSImage from '../../assets/react.png'
 import reactCSSImage from '../../assets/css.png'
 import reactHTMLImage from '../../assets/html.png'
 import jSImage from '../../assets/js.png'
+import nodeImage from '../../assets/node.png'
+import sqlImage from '../../assets/sql.png'
 
 export default function Technologies() {
 
@@ -32,8 +34,16 @@ export default function Technologies() {
         </ul>
       </div>
       <div className="backEnd">
+      <h2>Back-End</h2>
         <ul className="backEndList">
-          <li></li>
+          <li>
+          <img src={nodeImage} alt="" />
+            <h3>node.js</h3>
+          </li>
+          <li>
+          <img src={sqlImage} alt="" />
+            <h3>SQL</h3>
+          </li>
         </ul>
       </div>
     </section>
