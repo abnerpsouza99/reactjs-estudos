@@ -6,7 +6,7 @@ import reactHTMLImage from '../../assets/html.png'
 import jSImage from '../../assets/js.png'
 import nodeImage from '../../assets/node.png'
 import sqlImage from '../../assets/sql.png'
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export default function Technologies() {
 
