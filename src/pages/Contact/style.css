@@ -12,7 +12,7 @@ section.contactWrapper h2 {
   display: inline-block;
   margin-top: 40px;
   color: white;
-  font-size: 50px;
+  font-size: 32px;
   text-shadow: 3px 5px 5px black ;
   border-bottom: 1px solid var(--green-color);
 }
@@ -32,7 +32,7 @@ section.contactWrapper .contactContent .socialMedias h3{
   display: flex;
   flex: 1;
   color: white;
-  font-size: 35px;
+  font-size: 24px;
   text-shadow: 1px 1px 3px black;
   padding-left: 30px;
 }
@@ -47,6 +47,7 @@ section.contactWrapper .contactContent .socialMedias ul.socialMediaIcons li {
   display: flex;
   height: 70px;
   width: 70px;
+  color: var(--main-color);
   padding-bottom: 10px;
   transition: .7s;
 }
@@ -60,7 +61,6 @@ section.contactWrapper .contactContent .socialMedias ul.socialMediaIcons li img{
 section.contactWrapper .contactContent .socialMedias ul.socialMediaIcons li:hover{
   transform: translateY(-20px);
   border-bottom: 1px solid var(--green-color);
-  color: white;
   transition: .7s, color .6s;
 }
 
@@ -115,4 +115,38 @@ section.contactWrapper .contactContent .contacts .whatsAppBox a img{
   position: absolute;
   right: 0;
   margin-right: 20px;
+}
+
+.socialMediaSvg:hover {
+  fill: white;
+}
+
+.githubSvg {
+  color: #A9A9A9;
+  transition: color .3s ease-in-out;
+}
+
+.githubSvg:hover {
+  color: var(--green-color);
+  transition: color .3s ease-in-out;
+}
+
+.instagramSvg {
+  color: #A9A9A9;
+  transition: color .3s ease-in-out;
+}
+
+.instagramSvg:hover {
+  color: var(--green-color);
+  transition: color .3s ease-in-out;
+}
+
+.linkedinSvg {
+  color: #A9A9A9;
+  transition: color .3s ease-in-out;
+}
+
+.linkedinSvg:hover {
+  color: var(--green-color);
+  transition: color .3s ease-in-out;
 }
