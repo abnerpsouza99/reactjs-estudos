@@ -45,6 +45,7 @@
   height: 90%;
   display: grid;
   text-align: center;
+  align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
 }
@@ -59,8 +60,8 @@
 
 .technologiesSection .frontEnd ul.frontEndList li img{
   margin: 30px auto;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   text-shadow: 10px 10px 10px black;
 }
 

@@ -8,4 +8,13 @@
 
 body {
   background-color: #282a36;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 5px black;
 }

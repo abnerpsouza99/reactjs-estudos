@@ -5,7 +5,7 @@ import AboutMeContent from '../AboutMeContent'
 
 export default function AboutMe(){
   return (
-    <section>
+    <section className="aboutMe">
       <AboutMeImage/>
       <AboutMeContent/>
     </section>

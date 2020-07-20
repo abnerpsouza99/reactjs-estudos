@@ -1,0 +1,118 @@
+section.contactWrapper {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 400px;
+  margin-top: 200px;
+  display: block;
+  text-align: center;
+  box-shadow: 0px 0px 10px black inset;
+}
+
+section.contactWrapper h2 {
+  display: inline-block;
+  margin-top: 40px;
+  color: white;
+  font-size: 50px;
+  text-shadow: 3px 5px 5px black ;
+  border-bottom: 1px solid var(--green-color);
+}
+
+section.contactWrapper .contactContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  height: 200px;
+}
+
+section.contactWrapper .contactContent .socialMedias {
+  border-right: 1px solid var(--green-color);
+}
+
+section.contactWrapper .contactContent .socialMedias h3{
+  display: flex;
+  flex: 1;
+  color: white;
+  font-size: 35px;
+  text-shadow: 1px 1px 3px black;
+  padding-left: 30px;
+}
+
+section.contactWrapper .contactContent .socialMedias ul.socialMediaIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+section.contactWrapper .contactContent .socialMedias ul.socialMediaIcons li {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  padding-bottom: 10px;
+  transition: .7s;
+}
+
+section.contactWrapper .contactContent .socialMedias ul.socialMediaIcons li img{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+section.contactWrapper .contactContent .socialMedias ul.socialMediaIcons li:hover{
+  transform: translateY(-20px);
+  border-bottom: 1px solid var(--green-color);
+  color: white;
+  transition: .7s, color .6s;
+}
+
+section.contactWrapper .contactContent .contacts{
+  float: right;
+  margin-top: 10px;
+}
+
+section.contactWrapper .contactContent .contacts .whatsAppBox{
+  display: flex;
+  height: 50px;
+  margin-right: 50px;
+  width: 300px;
+  background-color: green;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+}
+
+section.contactWrapper .contactContent .contacts .whatsAppBox a{
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-right: 10px 0;
+  box-shadow: 3px 3px 5px black;
+  transition: background-color .2s ease-in-out;
+}
+
+section.contactWrapper .contactContent .contacts .whatsAppBox:hover{
+  background-color: #62D755;
+  transition: background-color .2s ease-in-out;
+}
+
+section.contactWrapper .contactContent .contacts .whatsAppBox a p{
+  display: flex;
+  font-weight: bold;
+  margin: 0;
+  font-size: 20px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+section.contactWrapper .contactContent .contacts .whatsAppBox a img{
+  display: flex;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
